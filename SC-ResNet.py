@@ -26,8 +26,8 @@ class slim_conv_3x3(nn.Module):
         super(slim_conv_3x3, self).__init__()
         self.stride = stride
         
-		reduce_1 = 2
-		reduce_2 = 4
+	reduce_1 = 2
+	reduce_2 = 4
 		
         self.conv2_2 = nn.Sequential(nn.Conv2d(in_planes//reduce_1, in_planes//reduce_2, kernel_size=1, bias=False),
                                      nn.BatchNorm2d(in_planes//reduce_2),
