@@ -35,8 +35,8 @@ class slim_conv_3x3(nn.Module):
                                      nn.Conv2d(in_planes // reduce_2, in_planes // reduce_2, kernel_size=3, stride=stride, groups=groups, padding=dilation, bias=False, dilation=dilation),
                                      nn.BatchNorm2d(in_planes // reduce_2))
 
-        self.conv2_1 = nn.Sequential(nn.Conv2d(reduce_1, reduce_1, kernel_size=3, stride=stride, groups=groups, padding=dilation, bias=False, dilation=dilation),
-                                     nn.BatchNorm2d(reduce_1))
+        self.conv2_1 = nn.Sequential(nn.Conv2d(in_planes//reduce_1, in_planes//reduce_1, kernel_size=3, stride=stride, groups=groups, padding=dilation, bias=False, dilation=dilation),
+                                     nn.BatchNorm2d(in_planes//reduce_1))
 
         self.fc = nn.Sequential(nn.Conv2d(in_planes, in_planes // 32, kernel_size=1, bias=False),
                                 nn.BatchNorm2d(in_planes // 32),
