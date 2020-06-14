@@ -6,7 +6,7 @@ The pretrained models on ImageNet will be released soon, you can use our module 
 
 Just replace 3x3_conv with slim_conv_3x3 and change the input channel number of the next conv layer.
 
-## Comparison with SOTA
+## Comparison with SOTA on ImageNet
 Y:Yes N:No
 
 |    Method                        | Manual |    Top-1 Error    |    FLOPs(10^9)    |    Params(10^6)    |
