@@ -7,18 +7,18 @@ The pretrained models on ImageNet will be released soon, you can use our module 
 Just replace 3x3_conv with slim_conv_3x3 and change the input channel number of the next conv layer.
 
 ## Comparison with SOTA on ImageNet
-Y:Yes N:No
+Y:Yes, N:No. We use the tool supplied by [DMCP](https://github.com/Zx55/dmcp) to count FLOPs here.
 
 |    Method                        | Manual |    Top-1 Error    |    FLOPs(10^9)    |    Params(10^6)    |
 |----------------------------------|--------|-------------------|-------------------|--------------------|
-| Sc-ResNeXt-101(32x3d, k=2)(ours) |  Y     |    21.18          |    4.64           |    23.70           |
+| Sc-ResNeXt-101(32x3d, k=2)(ours) |  Y     |    21.18          |    4.58           |    23.70           |
 |                                  |        |                   |                   |                    |
 | DMCP-ResNet-50                   |  N     |    23.50          |    2.80           |    23.18           |
-| Sc-ResNet-50(k=4/3)(ours)        |  Y     |    23.29          |    2.69           |    16.76           |
+| Sc-ResNet-50(k=4/3)(ours)        |  Y     |    23.29          |    2.65           |    16.76           |
 |                                  |        |                   |                   |                    |
 | DMCP-ResNet-50                   |  N     |    25.90          |    1.10           |    14.47           |
-| Ghost-ResNet-50 (s=2)            |  Y     |    24.99          |    2.18           |    13.95           |
-| Sc-ResNet-50(k=8/3)(ours)        |  Y     |    24.48          |    1.91           |    12.10           |
+| Ghost-ResNet-50 (s=2)            |  Y     |    24.99          |    2.20           |    13.95           |
+| Sc-ResNet-50(k=8/3)(ours)        |  Y     |    24.48          |    1.88           |    12.10           |
 
 ## Citation 
 If you use our code or method in your work, please cite the following:
