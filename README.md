@@ -17,7 +17,7 @@ Y:Yes, N:No. We use the tool supplied by [DMCP](https://github.com/Zx55/dmcp) to
 | Sc-ResNet-50(k=4/3)(ours)        |  Y     |    23.29          |    2.65           |    16.76           |
 |                                  |        |                   |                   |                    |
 | DMCP-ResNet-50                   |  N     |    25.90          |    1.10           |    14.47           |
-| Ghost-ResNet-50 (s=2)            |  Y     |    24.99          |    2.20           |    13.95           |
+| Ghost-ResNet-50 (s=2)            |  Y     |    24.99          |    2.15           |    13.95           |
 | Sc-ResNet-50(k=8/3)(ours)        |  Y     |    24.48          |    1.88           |    12.10           |
 
 ## Citation 
