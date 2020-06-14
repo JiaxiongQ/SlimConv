@@ -1,8 +1,8 @@
 # SlimConv
-This repository contains the code (in PyTorch) for "[SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping](http://openaccess.thecvf.com/content_CVPR_2019/papers/Qiu_DeepLiDAR_Deep_Surface_Normal_Guided_Depth_Prediction_for_Outdoor_Scene_CVPR_2019_paper.pdf)" paper (Arxiv)
-## Note
-The pretrained models on ImageNet will be released soon, you can use our module on your own tasks to reduce parameters, FLOPs and improve the performance.
+This repository contains the code (in PyTorch) for "[SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping](https://arxiv.org/pdf/2003.07469.pdf)" paper (ArXiv)
 
+## Note
+The pretrained models on ImageNet will be released soon, you can use our module on your own tasks to reduce parameters, FLOPs and improve the performance (Just replace 3x3_conv with slim_conv_3x3).
 
 ## Citation 
 If you use our code or method in your work, please cite the following:
