@@ -14,7 +14,7 @@ Y:Yes, N:No. We use the tool supplied by [DMCP](https://github.com/Zx55/dmcp) to
 | Sc-ResNeXt-101(32x3d, k=2)(ours) |  Y     |    21.18          |    4.58           |    23.70           |
 |                                  |        |                   |                   |                    |
 | [DMCP-ResNet-50](http://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_DMCP_Differentiable_Markov_Channel_Pruning_for_Neural_Networks_CVPR_2020_paper.pdf)                   |  N     |    23.50          |    2.80           |    23.18           |
-| Sc-ResNet-50(k=4/3)(ours)        |  Y     |    23.29          |    2.65           |    16.76           |
+| Sc-ResNet-50(k=4/3)(ours)        |  Y     |    22.77          |    2.65           |    16.76           |
 |                                  |        |                   |                   |                    |
 | [DMCP-ResNet-50](http://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_DMCP_Differentiable_Markov_Channel_Pruning_for_Neural_Networks_CVPR_2020_paper.pdf)                   |  N     |    25.90          |    1.10           |    14.47           |
 | [Ghost-ResNet-50 (s=2)](http://openaccess.thecvf.com/content_CVPR_2020/papers/Han_GhostNet_More_Features_From_Cheap_Operations_CVPR_2020_paper.pdf)            |  Y     |    24.99          |    2.15           |    13.95           |
