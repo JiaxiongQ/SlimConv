@@ -20,6 +20,9 @@ Y:Yes, N:No. We use the tool supplied by [DMCP](https://github.com/Zx55/dmcp) to
 | [Ghost-ResNet-50 (s=2)](http://openaccess.thecvf.com/content_CVPR_2020/papers/Han_GhostNet_More_Features_From_Cheap_Operations_CVPR_2020_paper.pdf)            |  Y     |    24.99          |    2.15           |    13.95           |
 | Sc-ResNet-50(k=8/3)(ours)        |  Y     |    24.48          |    1.88           |    12.10           |
 
+## Compressed ratio of ResNet-50 with SlimConv on CIFAR-100
+![image](https://docs.google.com/viewer?url=https://github.com/JiaxiongQ/SlimConv/blob/master/images_for_readme/compress.pdf)
+
 ## Citation 
 If you use our code or method in your work, please cite the following:
 ```
