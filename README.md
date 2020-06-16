@@ -21,8 +21,7 @@ Y:Yes, N:No. We use the tool supplied by [DMCP](https://github.com/Zx55/dmcp) to
 | Sc-ResNet-50(k=8/3)(ours)        |  Y     |    24.48          |    1.88           |    12.10           |
 
 ## Compressed ratio of ResNet-50 with SlimConv on CIFAR-100
-<a href=https://github.com/JiaxiongQ/SlimConv/blob/master/images_for_readme/compress.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
-                                                                                                                                         
+![hustlin_erd](https://github.com/JiaxiongQ/SlimConv/blob/master/images_for_readme/compress.pdf)                                                                                                                                         
 ## Citation 
 If you use our code or method in your work, please cite the following:
 ```
