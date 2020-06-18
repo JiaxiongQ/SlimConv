@@ -22,7 +22,7 @@ Y:Yes, N:No. We use the tool supplied by [DMCP](https://github.com/Zx55/dmcp) to
 
 ## Compressed ratio of ResNet-50 with SlimConv on CIFAR-100
 Just adjust k of SLimConv. 
-![image](https://github.com/JiaxiongQ/SlimConv/blob/master/images_for_readme/compress.png)                                                                                                                                         
+![image](https://github.com/JiaxiongQ/SlimConv/blob/master/compress.png)                                                                                                                                         
 ## Citation 
 If you use our code or method in your work, please cite the following:
 ```
