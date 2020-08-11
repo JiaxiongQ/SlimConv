@@ -2,7 +2,7 @@
 This repository contains the code (in PyTorch) for "[SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping](https://arxiv.org/pdf/2003.07469.pdf)" paper (ArXiv)
 
 ## Pretrained models
-
+Some of pretrained models are released in [Google Drive](https://drive.google.com/drive/folders/1Dalp1v18FtjcZVXsBpyr3gZ2CT8_Ba62?usp=sharing), which including Sc-ResNet-50, Sc-ResNet-50(cosine), Sc-ResNet-101, Sc-ResNet-50(k=8/3) and Sc-ResNeXt-101(32x3d).
 
 ## Note
 You can use our module on your own tasks to reduce parameters, FLOPs and improve the performance. 
@@ -14,7 +14,7 @@ Y:Yes, N:No. We use the tool supplied by [DMCP](https://github.com/Zx55/dmcp) to
 
 |    Method                        | Manual |    Top-1 Error    |    FLOPs(10^9)    |    Params(10^6)    |
 |----------------------------------|--------|-------------------|-------------------|--------------------|
-| Sc-ResNeXt-101(32x3d, k=2)(ours) |  Y     |    21.18          |    4.58           |    23.70           |
+| [Sc-ResNeXt-101(32x3d, k=2)(ours)]() |  Y     |    21.18          |    4.58           |    23.70           |
 |                                  |        |                   |                   |                    |
 | [DMCP-ResNet-50](http://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_DMCP_Differentiable_Markov_Channel_Pruning_for_Neural_Networks_CVPR_2020_paper.pdf)                   |  N     |    23.50          |    2.80           |    23.18           |
 | Sc-ResNet-50(k=4/3)(ours)        |  Y     |    22.77          |    2.65           |    16.76           |
