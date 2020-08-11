@@ -14,7 +14,7 @@ Y:Yes, N:No. We use the tool supplied by [DMCP](https://github.com/Zx55/dmcp) to
 
 |    Method                        | Manual |    Top-1 Error    |    FLOPs(10^9)    |    Params(10^6)    |
 |----------------------------------|--------|-------------------|-------------------|--------------------|
-| [Sc-ResNeXt-101(32x3d, k=2)(ours)]() |  Y     |    21.18          |    4.58           |    23.70           |
+| Sc-ResNeXt-101(32x3d, k=2)(ours) |  Y     |    21.18          |    4.58           |    23.70           |
 |                                  |        |                   |                   |                    |
 | [DMCP-ResNet-50](http://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_DMCP_Differentiable_Markov_Channel_Pruning_for_Neural_Networks_CVPR_2020_paper.pdf)                   |  N     |    23.50          |    2.80           |    23.18           |
 | Sc-ResNet-50(k=4/3)(ours)        |  Y     |    22.77          |    2.65           |    16.76           |
