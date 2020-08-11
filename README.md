@@ -1,7 +1,7 @@
 # SlimConv
 This repository contains the code (in PyTorch) for "[SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping](https://arxiv.org/pdf/2003.07469.pdf)" paper (ArXiv)
 
-## Pretrained models
+## Pretrained models on ImageNet
 Some of pretrained models are released in [Google Drive](https://drive.google.com/drive/folders/1Dalp1v18FtjcZVXsBpyr3gZ2CT8_Ba62?usp=sharing), which including Sc-ResNet-50, Sc-ResNet-50(cosine), Sc-ResNet-101, Sc-ResNet-50(k=8/3) and Sc-ResNeXt-101(32x3d).
 
 ## Note
