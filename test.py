@@ -1,4 +1,4 @@
-'''Train CIFAR10 with PyTorch.'''
+
 import time
 
 import torch.nn.parallel
