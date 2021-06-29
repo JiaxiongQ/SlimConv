@@ -1,5 +1,5 @@
 # SlimConv
-This repository contains the code (in PyTorch) for "[SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping](https://arxiv.org/pdf/2003.07469.pdf)" paper (ArXiv) or "SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Features Reconstructing" paper
+This repository contains the code (in PyTorch) for "SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Features Recombining" paper(TIP 2021)
 
 ## Requirements
 - [Python3.6](https://www.python.org/downloads/)
