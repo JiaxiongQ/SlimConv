@@ -33,12 +33,12 @@ Just adjust k of SimConv.
 ## Citation 
 If you use our code or method in your work, please cite the following:
 ```
-@article{Qiu2020SlimConv,
-  title={SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Weights Flipping},
-  author={Jiaxiong Qiu and Cai Chen and Shuaicheng Liu and Bing Zeng},
-  journal={ArXiv},
-  year={2020},
-  volume={abs/2003.07469}
+@article{qiu2021slimconv,
+  title={SlimConv: Reducing Channel Redundancy in Convolutional Neural Networks by Features Recombining},
+  author={Qiu, Jiaxiong and Chen, Cai and Liu, Shuaicheng and Zhang, Hengyu and Zeng, Bing},
+  journal={IEEE Transactions on Image Processing},
+  year={2021},
+  publisher={IEEE}
 }
 ```
 Please direct any questions to [Jiaxiong Qiu](https://jiaxiongq.github.io/) at qiujiaxiong727@gmail.com
